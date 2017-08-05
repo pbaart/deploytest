@@ -9,11 +9,11 @@ set :branch, 'master'
 set :stage, :production
 
 # The URL of the website in this environment.
-set :stage_url, 'http://www.example.com'
+set :stage_url, 'http://deploytest.devcon.one'
 
 # The environment's server credentials
-server 'XXX.XXX.XX.XXX', user: 'SSHUSER', roles: %w(web app db)
+server 'devcon.one', user: 'pep', roles: %w(web app db)
 
 # The deploy path to the website on this environment's server.
-set :deploy_to, '/deploy/to/path'
+set :deploy_to, '/domains/devcon.one/deploytest.devcon.one'
 
