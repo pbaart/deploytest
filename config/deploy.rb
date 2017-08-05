@@ -3,7 +3,7 @@
 ################################################################################
 
 # Lock the project to Capistrano 3.8.1
-lock '3.8.1'
+#lock '3.8.1'
 
 # The WordPress admin user
 set :wp_user, 'yourname'
