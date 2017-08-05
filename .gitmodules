@@ -1,9 +1,6 @@
 [submodule "wordpress"]
 	path = wordpress
 	url = git://core.git.wordpress.org/
-[submodule "content/content/themes/sage"]
-	path = content/content/themes/sage
-	url = git@github.com:roots/sage.git
 [submodule "content/themes/sage"]
 	path = content/themes/sage
 	url = git@github.com:roots/sage.git
